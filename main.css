@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    font-family: "Open Sans", Helvetica;
+    margin: 1em;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 800;
+    margin: 0;
+    max-width: 12ch;
+    justify-self: center;
+}
+
+h1 .not {
+    color: #c6262e;
+}
+
+h1 .systray {
+    color: #f37329;
+}
