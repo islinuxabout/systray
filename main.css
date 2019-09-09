@@ -5,7 +5,7 @@ html {
 body {
     display: grid;
     font-family: "Open Sans", Helvetica;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: 0 auto;
     max-width: 80ch;
 }
@@ -14,7 +14,7 @@ h1,
 h2,
 p {
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 7;
 }
 
 h1 {
@@ -66,6 +66,11 @@ p {
 .td.crossed {
     background-color: #ff8c82;
     color: #7a0000;
+}
+
+.td.planned {
+    background-color: #fff394;
+    color: #ad5f00;
 }
 
 .rh {
