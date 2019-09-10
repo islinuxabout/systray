@@ -81,13 +81,13 @@ p {
     color: #fff;
     content: 'There is no information about this feature';
     font-size: 0.8em;
-    margin: 2em 5em;
+    margin: 2em 3em;
     opacity: 0;
     padding: 0.5em;
     pointer-events: none;
     position: absolute;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .td:hover::after {
