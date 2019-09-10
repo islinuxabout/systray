@@ -5,13 +5,13 @@ html {
 body {
     display: grid;
     font-family: "Open Sans", Helvetica;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: 0 auto;
     max-width: 110ch;
 }
 
 .right-spacer {
-    grid-column: 7;
+    grid-column: 8;
     grid-row: 1;
     grid-row-end: 999;
 }
@@ -35,7 +35,7 @@ h2,
 nav,
 p {
     grid-column-start: 2;
-    grid-column-end: 7;
+    grid-column-end: 8;
 }
 
 a {
