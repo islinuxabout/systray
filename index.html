@@ -15,9 +15,19 @@
     <h1>Linux Is <span class="not">Not</span> About <span class="systray">SysTray</span></h1>
     <p>Desktop environments are removing support for the legacy GtkStatusIcon (aka system tray). However, there are many new, capable, cross-desktop APIs that replace the functionality previously provided by tray icons. Here you can find a list of replacement APIs and see how well-supported they are.</p>
 
+    <nav>
+      <h2>I Want to…</h2>
+      <ul>
+        <li><a href="#cloudproviders">Convey sync status or provide actions related to cloud storage</a></li>
+        <li><a href="#desktopactions">Provide quick access to my app's commonly used actions</a></li>
+        <li><a href="#mpris">Provide media player controls or now playing info</a></li>
+        <li><a href="#notifications">Alert the user that something has changed in my app</a></li>
+      </ul>
+    </nav>
+
     <div class="right-spacer"></div>
 
-    <h2>CloudProviders</h2>
+    <h2 id="cloudproviders">CloudProviders</h2>
     <p>If you want to communicate synchronization status or provide actions related to cloud storage devices, you can use the CloudProviders DBus API</p>
 
     <div></div>
@@ -42,7 +52,7 @@
     <div class="td crossed">✗</div>
 
 
-    <h2>Desktop Actions</h2>
+    <h2 id="desktopactions">Desktop Actions</h2>
     <p>If you want to provide quick access to common actions, you can add them to your .desktop file</p>
 
     <div></div>
@@ -66,7 +76,7 @@
     <div class="td">✗</div>
     <div class="td"></div>
 
-    <h2>MPRIS</h2>
+    <h2 id="mpris">MPRIS</h2>
     <p>If you want the user to be able to access media player controls for you app, you can listen to and supply information to MPRIS</p>
 
     <div></div>
@@ -97,7 +107,7 @@
     <div class="td optional">✓</div>
     <div class="td">✗</div>
 
-    <h2>Notifications</h2>
+    <h2 id="notifications">Notifications</h2>
     <p>If you want to alert the user that something has changed in your app, you can send a notification bubble</p>
 
     <div></div>

@@ -32,9 +32,23 @@ footer a {
 footer,
 h1,
 h2,
+nav,
 p {
     grid-column-start: 2;
     grid-column-end: 7;
+}
+
+a {
+    color: #0d52bf;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:visited {
+    color: #7239b3;
 }
 
 h1 {
