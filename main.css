@@ -72,9 +72,35 @@ p {
     justify-content: center;
 }
 
+.td::after {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
+    color: #fff;
+    content: 'There is no information about this feature';
+    font-size: 0.8em;
+    margin: 2em 5em;
+    opacity: 0;
+    padding: 0.5em;
+    pointer-events: none;
+    position: absolute;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    transition: all 300ms ease-in-out;
+}
+
+.td:hover::after {
+    opacity: 1;
+}
+
 .td.checked {
     background-color: #d1ff82;
     color: #206b00;
+}
+
+.td.checked::after {
+    content: 'This feature is supported';
 }
 
 .td.crossed {
@@ -82,9 +108,17 @@ p {
     color: #7a0000;
 }
 
+.td.crossed::after {
+    content: 'This feature is not supported';
+}
+
 .td.planned {
     background-color: #fff394;
     color: #ad5f00;
+}
+
+.td.planned::after {
+    content: 'This feature is planned';
 }
 
 .rh {
