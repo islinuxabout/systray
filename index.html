@@ -20,6 +20,8 @@
       <ul>
         <li><a href="#cloudproviders">Convey sync status or provide actions related to cloud storage</a></li>
         <li><a href="#desktopactions">Provide quick access to my app's commonly used actions</a></li>
+        <li><a href="#launcherentry">Convey progress for long-running tasks</a></li>
+        <li><a href="#launcherentry">Display how many items need action (such as unread messages)</a></li>
         <li><a href="#mpris">Provide media player controls or now playing info</a></li>
         <li><a href="#notifications">Alert the user that something has changed in my app</a></li>
       </ul>
@@ -51,7 +53,6 @@
     <div class="td checked">✓</div>
     <div class="td crossed">✗</div>
 
-
     <h2 id="desktopactions">Desktop Actions</h2>
     <p>If you want to provide quick access to common actions, you can add them to your .desktop file</p>
 
@@ -74,6 +75,30 @@
     <div class="td"></div>
     <div class="td optional">✓</div>
     <div class="td">✗</div>
+    <div class="td"></div>
+
+    <h2 id="launcherentry">Launcher Entry</h2>
+    <p>If you want to communicate progress information for long-running background tasks or the number of items needing action in your app (such as tasks or messages) you can use the LauncherEntry DBus API</p>
+
+    <div></div>
+    <div class="ch">GNOME</div>
+    <div class="ch">KDE</div>
+    <div class="ch">MATE</div>
+    <div class="ch">Pantheon</div>
+    <div class="ch">XFCE</div>
+
+    <div class="rh">Progress Bars</div>
+    <div class="td"></div>
+    <div class="td"></div>
+    <div class="td"></div>
+    <div class="td checked">✓</div>
+    <div class="td"></div>
+
+    <div class="rh">Badges</div>
+    <div class="td"></div>
+    <div class="td"></div>
+    <div class="td"></div>
+    <div class="td checked">✓</div>
     <div class="td"></div>
 
     <h2 id="mpris">MPRIS</h2>

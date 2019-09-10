@@ -47,10 +47,6 @@ a:hover {
     opacity: 0.8;
 }
 
-a:visited {
-    color: #7239b3;
-}
-
 h1 {
     font-size: 4em;
     font-weight: 800;
