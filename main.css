@@ -119,6 +119,15 @@ p {
     content: 'This feature is not supported';
 }
 
+.td.optional {
+    background-color: #8cd5ff;
+    color: #002e99;
+}
+
+.td.optional::after {
+    content: 'This feature is supported';
+}
+
 .td.planned {
     background-color: #fff394;
     color: #ad5f00;
